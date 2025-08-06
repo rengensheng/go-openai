@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	internaltest "github.com/sashabaranov/go-openai/internal/test"
+	internaltest "github.com/rengensheng/go-openai/internal/test"
 )
 
 func TestGetTestToken(t *testing.T) {
