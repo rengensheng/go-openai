@@ -332,7 +332,7 @@ type ChatCompletionRequest struct {
 	// Specifies the latency tier to use for processing the request.
 	ServiceTier ServiceTier `json:"service_tier,omitempty"`
 	// Turn on/off the thinking function switch
-	Thinking ThinkingOptions `json:"thinking,omitempty"`
+	Thinking *ThinkingOptions `json:"thinking,omitempty"`
 	// Embedded struct for non-OpenAI extensions
 	ChatCompletionRequestExtensions
 }
